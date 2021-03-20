@@ -1,0 +1,135 @@
+* {
+    --eerie-black: #111715ff;
+    --hookers-green: #90b6a1;
+    --light-cyan: #cce3deff;
+    --dark: #385646;
+    --mint-cream-2: #f6fff8ff;  
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans;
+    background-color: var(--mint-cream-2);
+    color: var(--eerie-black);
+}
+
+#container {
+    width: 70%;
+    margin: 20px auto;
+}
+
+#navbar {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--hookers-green);
+}
+
+#nav-links a {
+    margin: 0 8px;
+    text-decoration: none;
+    color: var(--hookers-green);
+    font-size: 1.5rem;
+}
+
+#logotype {
+    font-family: Sacramento;
+    font-size: 2.5rem;
+    color: var(--hookers-green);
+}
+
+#header {
+    font-family: Source Code Pro;
+}
+
+#header p {
+    font-size: 1.2rem;
+    color: var(--hookers-green);
+}
+
+#content-box {
+    display: flex;   
+}
+
+#images {
+    width: 65%;
+    padding: 20px;
+}
+
+#product-info {
+    width: 30%;
+    padding: 20px;
+    
+}
+
+#product-basic {
+    height: 45%;
+    position: relative;
+    border-bottom: 1px solid var(--hookers-green);
+}
+
+#basic {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 200px;
+    height: 50%;
+    color: var(--dark);
+}
+
+#product-description p {
+    font-size: 1.2rem;
+    color: var(--dark);
+}
+
+#name, #price {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#btn button {
+    padding: 20px 34px;
+    border: none;
+    background-color: var(--dark);
+    color: var(--mint-cream-2);
+    font-size: 1.2rem;
+    font-family: Open Sans;
+}
+
+#main-img {
+    background:url(https://i.imgur.com/3g91mjc.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    margin-bottom: 8px; 
+}
+
+#additional-imgs {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 8px;
+    width: 100%;
+    
+}
+
+.small-img {
+    height: 250px;
+}
+
+.first {
+   background: url(https://i.imgur.com/BkD1TrN.jpg) no-repeat center; 
+   background-size: cover; 
+}
+
+.second {
+    background: url(https://i.imgur.com/CrH5Vve.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.third {
+    background: url(https://i.imgur.com/356H5yJ.jpg) no-repeat left;
+    background-size: cover;
+}
